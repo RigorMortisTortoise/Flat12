@@ -1,0 +1,531 @@
+/* CSS Document */
+h1, h2, h3, h4, p {
+  color: white !important; }
+
+h1 {
+  font-family: bebas-neue, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 64px;
+  line-height: 1em; }
+
+h2 {
+  font-family: bebas-neue, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 1em; }
+
+h3 {
+  font-family: bebas-neue, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1em; }
+
+p {
+  line-height: 2em;
+  max-width: 500px; }
+
+#about {
+  height: 100%;
+  min-height: 800px;
+  background: black;
+  background: -webkit-linear-gradient(bottom, black 0%, #265ebc 100%);
+  background: -o-linear-gradient(bottom, black 0%, #265ebc 100%);
+  background: linear-gradient(to top, black 0%, #265ebc 100%); }
+  #about h3 {
+    font-size: 56px; }
+  #about h1 {
+    font-size: 120px;
+    letter-spacing: 4px;
+    margin-bottom: -60px;
+    font-weight: 100; }
+  #about .background {
+    background-image: url("content/car-1-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    min-height: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    align-items: stretch; }
+  #about .car-info-left {
+    flex: 2;
+    order: 1;
+    padding-left: 80px;
+    align-self: flex-end; }
+  #about img {
+    width: 60%; }
+  #about .car-info-right {
+    flex: 1.25;
+    order: 2;
+    margin-right: 80px;
+    margin-top: 40px; }
+  #about .navbar {
+    width: 100%;
+    height: 80px;
+    background-image: url("content/navbar.png");
+    background-repeat: repeat-x;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    order: 3;
+    margin-bottom: 0;
+    align-self: flex-end; }
+    #about .navbar .view-all {
+      background-color: #0285FA;
+      color: white !important;
+      border-radius: 6px;
+      padding: 12px 120px 12px 120px;
+      margin-right: 24px;
+      align-self: center;
+      position: absolute;
+      right: 0;
+      font-size: 16px; }
+  #about p {
+    font-size: 16px; }
+
+.pennzilla {
+  height: 100%;
+  min-height: 800px;
+  background: black;
+  background: -webkit-linear-gradient(bottom, black 0%, #fbc926 100%);
+  background: -o-linear-gradient(bottom, black 0%, #fbc926 100%);
+  background: linear-gradient(to top, black 0%, #fbc926 100%);
+  overflow: hidden; }
+  .pennzilla .background {
+    background-image: url("content/pennzilla-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    min-height: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-items: stretch; }
+  .pennzilla .car-info-left {
+    flex: 1;
+    order: 1;
+    padding-left: 80px;
+    align-self: center; }
+  .pennzilla .car-info-right {
+    flex: 1.5;
+    order: 2;
+    align-self: center;
+    margin-top: -40px; }
+  .pennzilla img {
+    width: 85%;
+    margin: auto;
+    display: block; }
+  .pennzilla .navbar {
+    width: 100%;
+    height: 80px;
+    background-image: url("content/navbar.png");
+    background-repeat: repeat-x;
+    position: relative;
+    bottom: 0%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-content: center;
+    align-self: flex-end;
+    order: 3;
+    margin-bottom: 0; }
+  .pennzilla .bid-now {
+    background-color: #3DB832;
+    color: white !important;
+    border-radius: 6px;
+    padding: 12px 40px 12px 40px;
+    margin-right: 24px;
+    align-self: center; }
+  .pennzilla .view-all {
+    background-color: #0285FA;
+    color: white !important;
+    border-radius: 6px;
+    padding: 12px 120px 12px 120px;
+    margin-right: 24px;
+    margin-left: 24px;
+    align-self: center;
+    font-size: 16px; }
+  .pennzilla h1 {
+    font-size: 80px;
+    line-height: 1.5em;
+    letter-spacing: 4px;
+    margin-left: -32px; }
+  .pennzilla .year {
+    font-size: 300px;
+    text-align: center;
+    margin-bottom: -200px;
+    letter-spacing: 4px; }
+  .pennzilla h2 {
+    font-size: 48px;
+    letter-spacing: 2px; }
+  .pennzilla p {
+    font-size: 18px; }
+  .pennzilla .neon {
+    font-family: 'Londrina Outline', cursive;
+    letter-spacing: 6px;
+    text-align: center;
+    margin-top: -80px;
+    margin-left: -300px;
+    font-size: 120px;
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #0285FA, 0 0 20px #fff, 0 0 40px #0ff, 0 0 80px #0ff; }
+
+.banshee {
+  height: 100%;
+  min-height: 800px;
+  background: black;
+  background: black;
+  background: -webkit-linear-gradient(bottom, black 0%, #265ebc 100%);
+  background: -o-linear-gradient(bottom, black 0%, #265ebc 100%);
+  background: linear-gradient(to top, black 0%, #265ebc 100%);
+  overflow: hidden; }
+  .banshee .background {
+    background-image: url("content/banshee-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    min-height: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-items: stretch; }
+  .banshee .car-info-left {
+    flex: 1;
+    order: 2;
+    align-self: center; }
+  .banshee .car-info-right {
+    flex: 1.5;
+    order: 1;
+    align-self: center;
+    margin-left: 80px;
+    margin-top: -40px; }
+  .banshee img {
+    width: 85%;
+    margin: auto;
+    display: block; }
+  .banshee .navbar {
+    width: 100%;
+    height: 80px;
+    background-image: url("content/navbar.png");
+    background-repeat: repeat-x;
+    position: relative;
+    bottom: 0%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-content: center;
+    align-self: flex-end;
+    order: 3;
+    margin-bottom: 0; }
+  .banshee .bid-now {
+    background-color: #3DB832;
+    color: white !important;
+    border-radius: 6px;
+    padding: 12px 40px 12px 40px;
+    margin-right: 24px;
+    align-self: center; }
+  .banshee .view-all {
+    background-color: #0285FA;
+    color: white !important;
+    border-radius: 6px;
+    padding: 12px 120px 12px 120px;
+    margin-right: 24px;
+    margin-left: 24px;
+    align-self: center;
+    font-size: 16px; }
+  .banshee h1 {
+    font-size: 80px;
+    line-height: 1.5em;
+    letter-spacing: 4px;
+    margin-left: -32px; }
+  .banshee .year {
+    font-size: 300px;
+    text-align: center;
+    margin-bottom: -200px;
+    letter-spacing: 4px; }
+  .banshee h2 {
+    font-size: 48px;
+    letter-spacing: 2px; }
+  .banshee p {
+    font-size: 18px; }
+  .banshee .neon {
+    font-family: 'Londrina Outline', cursive;
+    letter-spacing: 6px;
+    text-align: center;
+    margin-top: -80px;
+    margin-left: -300px;
+    font-size: 120px;
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #0285FA, 0 0 20px #fff, 0 0 40px #0ff, 0 0 80px #0ff; }
+
+.ronin {
+  background: black;
+  background: -webkit-linear-gradient(bottom, black 0%, #a7b22b 100%);
+  background: -o-linear-gradient(bottom, black 0%, #a7b22b 100%);
+  background: linear-gradient(to top, black 0%, #a7b22b 100%); }
+  .ronin .background {
+    background-image: url("content/ronin-background.png");
+    background-size: contain; }
+
+.mustang {
+  background: black;
+  background: -webkit-linear-gradient(bottom, black 0%, #265ebc 100%);
+  background: -o-linear-gradient(bottom, black 0%, #265ebc 100%);
+  background: linear-gradient(to top, black 0%, #265ebc 100%); }
+  .mustang .background {
+    background-image: url("content/sixty-five-background.png");
+    background-size: cover; }
+
+.roadrunner {
+  background: black;
+  background: -webkit-linear-gradient(bottom, black 0%, #bc6b26 100%);
+  background: -o-linear-gradient(bottom, black 0%, #bc6b26 100%);
+  background: linear-gradient(to top, black 0%, #bc6b26 100%); }
+  .roadrunner .background {
+    background-image: url("content/roadrunner-background.png");
+    background-size: cover; }
+
+.belair .background {
+  background-image: url("content/belair-background.png"); }
+
+.nissan {
+  background: black;
+  background: -webkit-linear-gradient(bottom, black 0%, #8ca4cc 100%);
+  background: -o-linear-gradient(bottom, black 0%, #8ca4cc 100%);
+  background: linear-gradient(to top, black 0%, #8ca4cc 100%); }
+  .nissan img {
+    width: 65%; }
+  .nissan .car-info-right {
+    flex: 1; }
+  .nissan .year {
+    text-align: left; }
+  .nissan h1 {
+    margin-left: 0; }
+  .nissan .background {
+    background-image: url("content/nissan-background.png");
+    background-size: contain; }
+
+.cuda .background {
+  background-image: url("content/cuda-background.png"); }
+
+@media only screen and (max-width: 1224px) {
+  #about {
+    max-height: auto !important;
+    height: auto; }
+    #about .car-info-right {
+      flex: 2;
+      margin-right: 24px;
+      margin-bottom: 40px; }
+
+  .pennzilla {
+    height: auto;
+    max-height: auto !important;
+    position: relative; }
+
+  .banshee {
+    height: auto;
+    max-height: auto !important;
+    position: relative; }
+    .banshee p {
+      max-width: 400px; } }
+@media only screen and (max-width: 1024px) {
+  #about .background {
+    flex-direction: column;
+    align-items: center; }
+  #about h3 {
+    text-align: center; }
+  #about h1 {
+    text-align: center; }
+  #about .car-info-left {
+    padding-left: 0;
+    align-self: center; }
+  #about .car-info-right {
+    margin-top: -80px; }
+  #about img {
+    width: 65%;
+    margin: auto;
+    display: block; }
+
+  .pennzilla {
+    height: auto;
+    max-height: auto !important; }
+    .pennzilla .background {
+      flex-direction: column; }
+    .pennzilla .car-info-left {
+      order: 2;
+      padding-left: 40px;
+      margin-bottom: 40px; }
+    .pennzilla .car-info-right {
+      order: 1; }
+    .pennzilla .neon {
+      margin-left: 0;
+      font-size: 100px; }
+    .pennzilla .year {
+      font-size: 200px;
+      margin-bottom: -100px; }
+    .pennzilla h1 {
+      font-size: 64px; }
+    .pennzilla h2 {
+      font-size: 32px; }
+    .pennzilla p {
+      font-size: 16px; }
+    .pennzilla img {
+      width: 65%; }
+
+  .banshee {
+    height: auto;
+    max-height: auto !important; }
+    .banshee .background {
+      flex-direction: column; }
+    .banshee .car-info-left {
+      margin-bottom: 40px; }
+    .banshee .car-info-right {
+      margin-left: 0; }
+    .banshee .neon {
+      margin-left: -150px;
+      font-size: 100px; }
+    .banshee .year {
+      font-size: 200px;
+      margin-bottom: -100px; }
+    .banshee h1 {
+      font-size: 64px; }
+    .banshee h2 {
+      font-size: 32px; }
+    .banshee p {
+      font-size: 16px; }
+    .banshee img {
+      width: 65%; }
+
+  .nissan .year {
+    text-align: center; }
+  .nissan img {
+    width: 65%;
+    margin: auto;
+    display: block; }
+  .nissan .background {
+    background-size: cover; } }
+@media only screen and (max-width: 768px) {
+  #about h1 {
+    font-size: 80px; }
+  #about h3 {
+    font-size: 40px; }
+  #about .pennzilla .car-info-right {
+    width: 80%; }
+    #about .pennzilla .car-info-right img {
+      width: 85%;
+      margin: auto;
+      display: block; }
+  #about .pennzilla .view-all {
+    padding: 12px 60px 12px 60px; }
+  #about .banshee img {
+    width: 85%;
+    margin: auto;
+    display: block; }
+  #about .banshee .view-all {
+    padding: 12px 60px 12px 60px; } }
+@media only screen and (max-width: 600px) {
+  #about .car-info-right {
+    margin-left: 24px; }
+  #about .navbar img {
+    display: none; }
+  #about .navbar .view-all {
+    justify-content: center;
+    position: relative; }
+
+  .ronin .background {
+    background-size: cover; }
+
+  .banshee h1 {
+    font-size: 56px;
+    margin-left: -16px; }
+  .banshee img {
+    width: 95%; }
+  .banshee .navbar {
+    justify-content: center; }
+
+  .pennzilla h1 {
+    font-size: 56px; }
+  .pennzilla img {
+    width: 95%; }
+  .pennzilla .navbar {
+    justify-content: center; } }
+@media only screen and (max-width: 440px) {
+  #about .navbar img {
+    display: none; }
+  #about .navbar a {
+    position: relative;
+    margin-right: 0; }
+  #about .navbar .view-all {
+    position: relative;
+    margin-right: 0; }
+
+  .ronin h1 {
+    margin-left: -24px; }
+
+  .view-all {
+    width: 85%;
+    text-align: center;
+    padding: 12px 60px 12px 60px !important;
+    margin-right: 0; }
+
+  .pennzilla .year {
+    font-size: 180px;
+    margin-bottom: -70px; }
+  .pennzilla h1 {
+    line-height: 1em; }
+  .pennzilla .neon {
+    font-size: 60px;
+    margin-left: -75px;
+    margin-top: -40px; }
+  .pennzilla h1, .pennzilla h2, .pennzilla p {
+    padding-left: 16px;
+    padding-right: 16px; }
+  .pennzilla .car-info-left {
+    padding-left: 24px;
+    flex: 2; }
+  .pennzilla .car-info-right {
+    margin-top: 0;
+    flex: 1; }
+  .pennzilla .navbar {
+    justify-content: center; }
+
+  .banshee .year {
+    font-size: 180px;
+    margin-bottom: -70px; }
+  .banshee .car-info-right {
+    margin-left: 0;
+    margin-top: 0;
+    flex: 1; }
+  .banshee .car-info-left {
+    padding-left: 24px;
+    flex: 2; }
+  .banshee .neon {
+    font-size: 60px;
+    margin-left: -75px;
+    margin-top: -40px; }
+  .banshee h1 {
+    line-height: 1em;
+    margin-left: 0; }
+  .banshee h1, .banshee h2, .banshee p {
+    padding-left: 16px;
+    padding-right: 16px; }
+  .banshee .navbar {
+    justify-content: center; } }

@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Flat 12 Test</title>
+<link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet">
+	<style>
+	
+body,html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: Open Sans, sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 1px;
+  background: rgb(38,94,188);
+  background: radial-gradient(circle, rgba(38,94,188,1) 0%, rgba(0,0,0,1) 100%);
+	height: 100%;
+
+}
+
+.letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 70px;
+  color: white;
+  line-height: 1;
+  font-weight: 200;
+  transition: all .3s ease;
+  position: relative;
+}
+		
+h1 {
+	font-size: 36px;
+	color: white;
+	margin: 0 0 10px 0;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	
+}
+h2 {
+	font-weight: 600 !important;
+	font-size: 24px;
+	color: #2F3942;
+	margin: 0 0 15px 0;
+}
+h3 {
+	font-size: 18px;
+	margin: 5px 0 8px 0;
+	font-weight: 700 !important;
+	color: #1D1D1D;
+	line-height: 1.3em;
+}
+h4 {
+	font-weight: 700 !important;
+	font-size: 15px;
+	color: #575758;
+	margin: 0 0 5px 0;
+		}
+		
+		p {
+			font-size: 15px;
+			line-height: 2.5em;
+		}
+		
+		.content {
+			width: 90%;
+			margin: auto;
+		}
+		
+		.trophy {
+			font-size: 250px;
+			font-weight: 300;
+		}
+		
+		.font-effect-neon {
+  		text-shadow: 0 0 0.1em #fff, 0 0 0.2em #fff, 0 0 0.3em #fff, 0 0 0.4em #f7f,0 0 0.6em #f0f, 0 0 0.8em #f0f, 0 0 1.0em #f0f, 0 0 1.2em #f0f;
+  		color: #fff;
+		text-align: center;
+}
+	</style>
+</head>
+
+<body>
+	
+	<div class="wrapper">
+  <div class="letter">
+    <img src="content/lighted-arrow-menu.png" style="position: absolute; top: 0;">
+	<div class="content">
+		<h1>Pennzilla</h1>
+	 <p>Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+	  </div>
+		</div>
+  <div class="letter">
+		<div>
+	  <h1 class="font-effect-neon">pennzilla</h1>
+	 <h1 class="trophy">GTR35</h1>
+	  </div>
+    <img src="content/pennzilla-car.png" style="width: 800px; position: absolute; bottom: -75px;">
+  </div>
+
+	</div>
+</body>
+</html>
